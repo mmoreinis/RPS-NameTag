@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RPS Web App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload = "showRound();">
+    <div id="scoreBox">Score: loading</div>
+    <div id="statsBox">Loading ...</div>
+    <div id="result">Choose a move</div>
+    <div id="buttons">
+      <div><img src="rock.png" onclick="cpuTurn('r');"></div>
+      <div><img src="paper.png" onclick="cpuTurn('p');"></div>
+      <div><img src="scissors.png" onclick="cpuTurn('s');"></div>
+    </div>
+  
+    <script src="script.js"></script>
+  </body>
+</html>

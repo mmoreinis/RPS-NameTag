@@ -1,0 +1,93 @@
+body {
+  position:relative;
+}
+/* Nametag Styles */
+div.nametag {
+  width: 600px;
+  height:440px;
+  border: solid grey 1px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 15px 15px 10px 12px rgb(167, 169, 170);
+  font-family: Helvetica, Arial,  sans-serif;
+  margin:auto;
+}
+
+h1 {
+  font-size:130px;
+  margin:0 auto;
+  background-color: #ff37d4;
+  color:#ffffff;
+  border-radius:inherit;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px;
+}
+
+h2, h3 {
+  color:#ff37d4;
+  font-size:60px;
+  position:relative;
+  margin-top:5px;
+}
+
+h2 {
+  font-size:120px;
+  margin-top:-.5em;
+}
+
+#name {
+  padding-bottom:70px;
+  border-bottom: 7px solid  #ff37d4;
+}
+     
+/* RPS Styles */
+
+#play {
+  position:relative;
+  top:-100px;
+}
+
+#scoreBox {
+  position:absolute; 
+  right:10px; 
+  top: 10px; 
+  border:1px solid black; 
+  background:white;
+  padding:10px;
+}
+
+input {
+  text-align:center;
+}
+
+.over {
+  font-size:24pt;
+  position:static!important;
+  margin:auto;
+  text-align:center;
+  width:10em;
+}
+
+#buttons {
+  margin:auto;
+  width:700px;
+  padding:40px;
+}
+
+#buttons div {
+  padding:10px;
+  display:inline-block;
+  border:2px solid green;
+  border-radius:20px;
+}
+
+#buttons img {
+  width:150px;
+  height:200px;
+  object-fit:cover;
+  margin:0px;
+}
+
+#buttons img:hover, #buttons button:hover {
+  opacity:.5;
+}
